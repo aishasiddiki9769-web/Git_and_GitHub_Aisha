@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5e9f2;
+}
+
+/* PROFILE SECTION */
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.profile-info h1 {
+    color: #a64d79;
+}
+
+.profile-info h2 {
+    color: #444;
+    font-size: 20px;
+}
+
+button {
+    background-color: #a64d79;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.about h2 {
+    color: #a64d79;
+    font-size: 28px;
+}
+
+.about p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+.skills h2 {
+    color: #a64d79;
+    font-size: 28px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: white;
+    color: #a64d79;
+    padding: 20px 35px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS SECTION */
+
+.projects {
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+.projects h2 {
+    color: #a64d79;
+    font-size: 28px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #a64d79;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* CERTIFICATIONS + CONTACT SECTIONS */
+
+.certifications,
+.contact {
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+.certifications h2,
+.contact h2 {
+    color: #a64d79;
+    font-size: 28px;
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: center;
+}
+
+.certificate-card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+}
+
+.certificate-card h3 {
+    color: #a64d79;
+    font-size: 20px;
+}
+
+.certificate-card p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contact p {
+    color: #444;
+    font-size: 16px;
+}

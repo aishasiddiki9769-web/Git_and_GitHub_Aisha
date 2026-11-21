@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aisha | My Portfolio</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- PROFILE SECTION -->
+
+    <div class="profile-container">
+
+        <div class="profile-image">
+            <img src="{{ url_for('static', filename='aishapic.jpeg') }}"
+                 alt="Aisha's Profile Picture">
+        </div>
+
+        <div class="profile-info">
+
+            <h1>Hi, I'm Aisha!</h1>
+
+            <h2>Name: Aisha</h2>
+            <h2>Education: TYBCom</h2>
+            <h2>Field: Accounting & Commerce</h2>
+
+            <button onclick="location.href='#about'">
+                Know More
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ABOUT ME SECTION -->
+
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi! I am Aisha, a TYBCom student
+            specializing in Accounting and Commerce.
+            I am interested in Cloud Computing,
+            Python, Networking and Web Development.
+
+            I enjoy learning new technologies
+            and building practical projects.
+        </p>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+
+    <section class="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill-container">
+
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Flask</div>
+            <div class="skill-card">AWS Cloud</div>
+            <div class="skill-card">Networking</div>
+            <div class="skill-card">HTML & CSS</div>
+            <div class="skill-card">MS Excel</div>
+            <div class="skill-card">Accounting</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section class="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Cloud Calculator</h3>
+                <p>
+                    Created a calculator using AWS Lambda,
+                    S3 and Python.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Image Recognition</h3>
+                <p>
+                    Used Amazon Rekognition to identify
+                    objects in images.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Polly Narrator</h3>
+                <p>
+                    Created a text-to-speech project
+                    using Amazon Polly.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Flask Portfolio</h3>
+                <p>
+                    Building a personal portfolio
+                    using Python and Flask.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CERTIFICATIONS SECTION -->
+
+    <section class="certifications">
+
+        <h2>My Certifications</h2>
+
+        <div class="certificate-container">
+
+            <div class="certificate-card">
+
+                <h3>Cloud Computing</h3>
+
+                <p><strong>Organization:</strong> Tutedude</p>
+
+                <p><strong>Completion Date:</strong>
+                    12 August 2026
+                </p>
+
+                <p><strong>Certificate ID:</strong>
+                    TD-SIDD-CC-1115
+                </p>
+
+                <p>Certificate of Completion</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: aishasiddiki9769@gmail.com</p>
+
+        <p>Location: Mumbai, India</p>
+
+        <p>Let's connect and work together!</p>
+
+    </section>
+
+
+</body>
+</html>
+
