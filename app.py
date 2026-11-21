@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
+import json
 
 app = Flask(__name__)
 
@@ -6,7 +7,11 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/api')
+def api():
+    with open('data.json') as f:
+        data = json.load(f)
+    return jsonify(data)
+
 if __name__ == '__main__':
     app.run(debug=True)
-
-
